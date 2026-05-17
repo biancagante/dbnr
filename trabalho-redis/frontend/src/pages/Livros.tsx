@@ -72,8 +72,10 @@ function editarLivro(id: string) {
 
   return (
     <div style={{
+      height: '75vh',
       display: 'flex',
       flexDirection: 'column',
+      overflowY: 'auto',
 
       transition: '0.3s ease',
       opacity: saindo ? 0 : 1,

@@ -3,13 +3,11 @@ function DeleteModal({ open, onClose, onConfirm }: any) {
   return (
     <div style={{
       position: 'absolute',
-      width: '135%',
-      height: '260%',
       top: 0,
       left: 0,
       right: 0,
       bottom: 0,
-      transform: 'translate(-21%, -16%)',
+      transform: 'translate(-10%, -5%)',
 
 
       display: 'flex',
