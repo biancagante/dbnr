@@ -1,0 +1,18 @@
+import redis 
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+redis_cliente = redis.Redis(
+    host = os.getenv("REDIS_HOST"),
+    port = os.getenv("REDIS_PORT"),
+    db = os.getenv("REDIS_DB", 0),
+    password = os.getenv("REDIS_PASSWORD", None),
+    decode_responses = True
+)
+
+if redis_cliente.ping:
+    print("Conectado localmente na porta:", redis_cliente.connection_pool.connection_kwargs.get('port'))
+else: 
+    print("Não foi possível conectar localmente.")
