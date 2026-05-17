@@ -59,14 +59,13 @@ trabalho-redis/
 │   │   │   └── api_livros.py
 │   │   ├── config.py
 │   │   └── main.py
-│   │
 │   ├── .env
 │   ├── requirements.txt
 │   └── venv/
 │
 ├── frontend/
 │
-└── script-ini.bat
+└── script_ini.bat
 ```
 
 ---
@@ -116,7 +115,7 @@ Instale previamente:
 # 1. Clone o Repositório
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/biancagante/dbnr.git
 ```
 
 ```bash
@@ -154,7 +153,7 @@ O projeto possui um script automático para facilitar a execução.
 No terminal CMD:
 
 ```bash
-.\script-ini.bat
+.\script_ini.bat
 ```
 
 O script:
@@ -262,17 +261,13 @@ http://localhost:5173/
 
 ## Estrutura do Projeto
 
-```markdown
 ![Estrutura do Projeto](./prints/Estrutura_projeto.PNG)
-```
 
 ---
 
 ## Documentação da API FastAPI
 
-```markdown
 ![Documentação FastAPI](./prints/API_Endpoints.png)
-```
 
 ---
 
