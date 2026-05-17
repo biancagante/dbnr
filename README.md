@@ -124,7 +124,7 @@ cd trabalho-redis
 
 ---
 
-Lembre-se de criar um .env na pasta backend, ou mude as propriedades de conexão com o Redis
+Lembre-se de criar um .env na pasta backend, ou mude as propriedades de conexão com o Redis. Se você é um desenvolvedor ou avaliador do projeto, será enviado um .env com acesso local e cloud para você, deve colar em /backend da mesma forma.
 
 ```bash
 #  REDIS LOCAL CONEXÃO
